@@ -8,8 +8,8 @@ python:
   - "pypy3"
 install:
   - pip install -r requirements_tests.txt
-  - pip install coveralls
+  - pip install codecov
 script: 
   - nosetests --with-coverage --cover-package=open_urls --cover-package=tests --cover-tests
 after_success:
-  - coveralls
+  - codecov
