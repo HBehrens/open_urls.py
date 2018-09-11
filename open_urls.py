@@ -6,6 +6,10 @@ import re
 import subprocess
 import argparse
 
+# make print mockable in unit-test
+# noinspection PyShadowingBuiltins
+print = print
+
 ALL_FINDERS = dict()
 
 # John Gruber's regex from http://daringfireball.net/2010/07/improved_regex_for_matching_urls
