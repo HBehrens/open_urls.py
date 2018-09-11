@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/HBehrens/open_urls.py.svg?branch=master)](https://travis-ci.org/HBehrens/open_urls.py)
+[![codecov](https://codecov.io/gh/HBehrens/open_urls.py/branch/master/graph/badge.svg)](https://codecov.io/gh/HBehrens/open_urls.py)
+
 CLI to scan a text file (or stdin when providing `-` as file) for URLs and other patterns to open them in a browser.
 
 This tool is meant to be used with `todo.txt` and in particular [topydo] as demonstrated in `topydo_sample.txt`.
