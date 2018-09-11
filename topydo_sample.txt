@@ -1,0 +1,9 @@
+# sample file for https://github.com/bram85/topydo
+# add these values to your ~/.topydo config to enable opening patterns
+
+[aliases]
+# absolute path since ~ or $HOME in path doesn't seem to work :(
+open = edit -E /Users/hbehrens/bin/open_urls.py
+
+[column_keymap]
+o = cmd open {}
